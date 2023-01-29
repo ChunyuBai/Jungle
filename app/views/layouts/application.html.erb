@@ -11,12 +11,19 @@
 </head>
 <body>
 <%= render 'layouts/top_nav' %>
+
 <% if current_user %>
   Signed in as <%= current_user.name %> | <%= link_to "Logout", '/logout' %>
 <% else %>
   <%= link_to 'Login', '/login' %> | <%= link_to 'Signup', '/signup' %>
 <% end %>
 
+<% if active_sale? %>
+<p class="alert alert-info">
+There's an active <strong> <%= "test" %> </strong> sale going on!
+<strong>Everything is <%= 50 %> % off! </strong>
+</p>
+<% end %>
   <main class="container">
     <%= yield %>
   </main>
