@@ -29,3 +29,27 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 - Bootstrap 5
 - PostgreSQL 9.x
 - Stripe
+
+## Final Product
+
+Home page:
+
+!["Screenshot of home page"](https://github.com/ChunyuBai/Jungle/blob/master/docs/homepage.png)
+
+Product detail:
+
+!["Screenshot of product_detail page"](https://github.com/ChunyuBai/Jungle/blob/master/docs/product_detail.png)
+
+MyCart:
+
+!["Screenshot of mycart page"](https://github.com/ChunyuBai/Jungle/blob/master/docs/mycart.png)
+
+Payment: 
+
+!["Screenshot of payment page"](https://github.com/ChunyuBai/Jungle/blob/master/docs/payment.png)
+
+Order:
+
+!["Screenshot of order page"](https://github.com/ChunyuBai/Jungle/blob/master/docs/orderinfo.png)
+
+
